@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>                
+                                                
+
+    <script>
+        function add(x,y) {
+            return x + y;
+        }
+
+        function subtract(x,y) {
+            return x - y;
+        
+        }
+
+        function multiply(x,y) {
+            return x * y;  
+        }
+
+
+        function divide(x,y) {
+            return x / y;
+        }
+
+         
+        var number = parseInt(prompt("Please enter a Number", ""));        // ParseInt, JS Method that turns string into numbers
+                                                                            // Calling Function with Arguement **Number** //
+
+        var operators = prompt("Choose between + , - , * , /");
+
+        var newNumber = parseInt(prompt("Please enter a number"));
+
+        switch(operators) {
+            case '+' :  
+                var sum = add(number, newNumber);
+                document.write(sum.toString());
+                break;
+
+            case '-' :
+                var difference = subtract(number, newNumber);
+                document.write(subtract.toString())
+                break;
+
+            case '*' :
+                var product = multiply(number, newNumber);
+                document.write(Multiply.toString())
+                break;
+
+            case '/' :
+                var division = divide(number, newNumber);
+                document.write(division.toString())
+                break;
+            
+            default:
+                document.write("Please refresh this option does not Exist")       
+            
+        }
+            
+            
+
+    
+
+
+
+        
+    
+    
+    
+    </script>
+    
+        </body>
+</html>
